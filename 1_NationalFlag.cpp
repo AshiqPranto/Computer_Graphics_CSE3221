@@ -26,6 +26,23 @@ int main()
     //setfillstyle(SOLID_FILL,YELLOW);
     //floodfill(101,301,YELLOW);
 
+
+    //int topx = 50;
+    //int topy = 20;
+    //int bottomx = 370;
+    //int bottomy = 212;
+
+
+    //setcolor(WHITE);
+
+    //rectangle(topx,topy,bottomx,bottomy);
+    //setfillstyle(SOLID_FILL, GREEN);
+    //floodfill(51, 21, WHITE);
+    // height:width = 3:5 and the radius = width/5
+    //height 192 width 320 radius = 64
+    //int centerx = (topx + bottomx) / 2;
+    //int centery = (topy + bottomy) / 2;
+
     // draw bd national flag
     setcolor(GREEN);
     rectangle(50,50,250,170);

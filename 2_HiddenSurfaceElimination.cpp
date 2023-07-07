@@ -26,12 +26,14 @@ int main()
     // try new one  by overdrawing
 
     //code for triangle
-    setcolor(WHITE);
-    setfillstyle(SOLID_FILL,BLACK);
+    setcolor(WHITE); //This line sets the current drawing color to white
+    setfillstyle(SOLID_FILL,BLACK); // This line sets the fill style to solid and the fill color to black.
     line(50,150,150,150);//Below line
     line(50,150,100,50);// left line
     line(100,50,150,150);//right line
-    floodfill(80,148,WHITE);
+    floodfill(80,148,WHITE); //This line fills the rectangle with the specified fill color.
+    //The floodfill function starts from the specified seed point (51, 21) and fills the enclosed area which border is colored with WHITE.
+
     //circle draw
 
     setcolor(CYAN);
