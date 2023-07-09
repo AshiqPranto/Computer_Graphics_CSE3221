@@ -45,7 +45,7 @@ void drawBezierCurve(int x[],int y[],int n)
         putpixel(x[k],y[k],YELLOW);
     }
     return;
-} 
+}
 
 int main()
 {
@@ -70,3 +70,12 @@ int main()
     getch();
     return 0;
 }
+/*
+Input:
+5
+10 10
+50 100
+100 30
+140 120
+190 70
+*/

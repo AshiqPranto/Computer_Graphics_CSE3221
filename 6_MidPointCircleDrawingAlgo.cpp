@@ -44,7 +44,7 @@ int main()
     int gd = DETECT;
     int gm;
     initgraph(&gd,&gm,"");
-
+    freopen("input.txt", "r", stdin);
     int x,y,r;
     printf("Enter the coordinates and radius of your circle:\n x y r\n");
     scanf("%d %d %d",&x,&y,&r);
@@ -54,3 +54,5 @@ int main()
     getch();
     return 0;
 }
+//input
+//150 80 50

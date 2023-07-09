@@ -15,7 +15,7 @@ class kochCurve
         }
         else
         {
-            delay(1000);
+            delay(100);
             dx=(x5-x1)/3;
             dy=(y5-y1)/3;
             x2=x1+dx;

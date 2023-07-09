@@ -65,7 +65,7 @@ void cohenSutherland(point winMin,point winMax,point point1,point point2)
             // calculate slope m with point1 and point2
             if((point2.x-point1.x))
             {
-                m = (point2.y-point1.y)/(point2.x-point1.x);
+                m = (point2.y-point1.y)/(point2.x-point1.x + 0.0);
             }
             if(code1 & left_edge)
             {

@@ -44,7 +44,7 @@ int main()
     int gd = DETECT;
     int gm;
     initgraph(&gd,&gm,"");
-
+    freopen("input.txt", "r", stdin);
     int xa,xb,ya,yb;
     printf("Enter coordinate value of two end point in your line: \n x y\n");
     scanf("%d %d %d %d",&xa,&ya,&xb,&yb);
@@ -53,3 +53,9 @@ int main()
     getch();
     return 0;
 }
+
+/*
+input
+40 40
+190 100
+*/
