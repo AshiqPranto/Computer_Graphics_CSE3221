@@ -46,7 +46,7 @@ int main()
     initgraph(&gd,&gm,"");
     freopen("input.txt", "r", stdin);
     int x,y,r;
-    printf("Enter the coordinates and radius of your circle:\n x y r\n");
+    printf("Enter the center coordinates and radius of your circle:\n x y r\n");
     scanf("%d %d %d",&x,&y,&r);
 
     midPointCircleDraw(x,y,r);
